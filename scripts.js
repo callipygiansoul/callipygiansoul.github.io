@@ -5,14 +5,14 @@ window.addEventListener("load", function(){
   new FlipDown(targetDate, "flipdown").start();
 
   var photos = [
-    'craterLake_small.jpg', 'ecolaStatePark.jpg',
-    'newberryCaldera_small.jpg', 'portlandHood.jpg', 'sealRock2.jpg', 'sealRock_small.jpg',
-    'smithRock_small.jpg'
+    'craterLake_smaller.jpg', 'ecolaStatePark_smaller.jpg',
+    'newberryCaldera_smaller.jpg', 'portlandHood_small.jpg', 'sealRock2_small.jpg', 'sealRock_smaller.jpg',
+    'smithRock_smaller.jpg'
   ];
-  var center_bottom_photos = ['sealRock2'];
+  var center_bottom_photos = ['sealRock2_small.jpg'];
   var randomIndex = parseInt(Math.random() * photos.length);
   document.body.style.backgroundImage = "url('img/" + photos[randomIndex] + "')";
-  if (center_bottom_photos.includes(photos[2])) {
+  if (center_bottom_photos.includes(photos[randomIndex])) {
     document.body.style.backgroundPosition = "center bottom";
   }
 
