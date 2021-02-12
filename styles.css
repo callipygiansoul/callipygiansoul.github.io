@@ -1,0 +1,44 @@
+
+#flipdown {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#countdown-container .rotor-group-heading::before {
+    color: white;
+}
+
+section {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    background-color: #5A4926;
+    opacity: 80%;
+    color: white;
+
+}
+
+@media all and (max-width: 1500px) {
+    section {
+        width: 100%;
+        padding: 20px 0;
+        opacity: 90%;
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+.main-container {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
