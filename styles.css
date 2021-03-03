@@ -42,3 +42,15 @@ body {
     background-position: center top;
     background-attachment: fixed;
 }
+
+.nope {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .event-date {
+        font-weight: 800;
+        font-style: italic;
+        font-size: 1.2em;
+    }
+}
