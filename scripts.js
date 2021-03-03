@@ -19,7 +19,5 @@ window.addEventListener("load", function() {
     document.getElementById("flipdown").className = "flipdown";
     new FlipDown(targetDate, "flipdown", {theme: "dawn"}).start();
   }
-
-
 });
 
