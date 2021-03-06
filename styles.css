@@ -26,6 +26,10 @@ h2 {
     width: 400px;
 }
 
+.flipper-group label {
+    font-size: 30%;
+}
+
 #info-section {
     text-align: center;
     display: flex;
@@ -59,4 +63,7 @@ body {
     .flipper-container {
         width: 80%;
     }
+    .flipper-group label {
+    font-size: 40%;
+}
 }
