@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PRAASA 2022</title>
 
-  <script type="text/javascript" src="flipdown.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="scripts.js"></script>
-  <link rel="stylesheet" type="text/css" href="flipdown.css">
+  <link rel="stylesheet" type="text/css" href="jqueryFlipper.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
 
 
@@ -19,7 +19,12 @@
     <h2>
       <span>Stay tuned for further details or email info20</span><span class="nope">this is fun</span><span>22@praa</span><span class="nope">.com</span><span>sa.org if you need to contact to someone immediately.</span>
     </h2>
-    <div id="flipdown"></div>
+    <div class="flipper-container">
+      <div class="flipper flipper-dark" data-datetime="2022-01-01 00:00:00" data-template="ddd|HH|ii|ss" data-labels="Days|Hours|Minutes|Seconds" id="myFlipper"></div>
+    </div>
   </section>
+
+<script type="text/javascript" src="jquery.flipper-responsive.js"></script>
+
 </body>
 </html>

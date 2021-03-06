@@ -13,11 +13,5 @@ window.addEventListener("load", function() {
   if (center_bottom_photos.includes(photos[randomIndex])) {
     document.body.style.backgroundPosition = "center bottom";
   }
-
-  if (screen.width > 500) {
-    const targetDate = new Date('2022-03-03T16:00:00') / 1000;
-    document.getElementById("flipdown").className = "flipdown";
-    new FlipDown(targetDate, "flipdown", {theme: "dawn"}).start();
-  }
 });
 
